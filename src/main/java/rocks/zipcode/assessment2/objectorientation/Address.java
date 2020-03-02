@@ -96,7 +96,8 @@ public class Address {
 
     @Override
     public String toString(){
-
-    return null;
+    String answer = "Address{";
+    answer+="addressLine1='" + this.getAddressLine1() +"', addressLine2='" + this.getAddressLine2() + "', city='" + getCity() + "', state='"+ getState() +"', zipcode='"+getZipcode() +"'}";
+    return answer;
     }
 }
